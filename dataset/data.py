@@ -16,15 +16,13 @@ else:
         "repo": [],
         "title": [],
         "body": [],
-        "labels": [],
-        "num_labels": []
+        "labels": []
     })
 
 print(df.shape)
 
 language = sys.argv[1]
 label = sys.argv[2]
-# print(language, label)
 
 # labels: bug, documentation, docs, enhancement, feature, question, design, improvement, help
 for page in range(1, 11):
@@ -43,15 +41,13 @@ for page in range(1, 11):
             "title": [],
             "body": [],
             "labels": [],
-            "num_labels": []
         }
         for item in json_response["items"]:
             df2["url"].append(item["html_url"])
             df2["repo"].append(item["repository_url"].split("/")[-2] + "/" + item["repository_url"].split("/")[-1])
             df2["title"].append(item["title"])
             df2["body"].append(item["body"])
-            df2["labels"].append(json.dumps([label["name"] for label in item["labels"]]))
-            df2["num_labels"].append(len(item["labels"]))
+            df2["labels"].append(label)
         df = pd.concat([df, pd.DataFrame(df2)], ignore_index=True).drop_duplicates().reset_index(drop=True)
     else:
         print(response.content)
