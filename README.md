@@ -1,5 +1,34 @@
 # github-issue-bot
 
+## Setup for running the notebooks
+
+1. Clone the repo
+```bash
+  $ git clone https://github.com/Saif807380/github-issue-bot.git
+```
+
+2. Create a virtual environment and install the dependencies
+```bash
+  $ pip install -r requirements.txt
+```
+
+3. Download a `textblob` dependencies
+```bash
+  $ python -m textblob.download_corpora
+```
+
+4. Download `nltk` corpora by running this in the python interpreter
+```bash
+  $ python
+```
+```python
+  import nltk
+  nltk.download('stopwords')
+  nltk.download('punkt')
+```
+
+## Setup for Building Dataset
+
 Data is present inside the dataset folder. `data.sh` script executes `data.py`
 and provides language and label name to generate the dataset.
 
@@ -20,8 +49,6 @@ and provides language and label name to generate the dataset.
 - design
 - improvement
 - help
-
-## Setup
 
 1. Clone the repo
 ```bash
