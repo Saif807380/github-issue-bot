@@ -10,7 +10,10 @@ import Papers from "../views/Papers.vue";
 import Rocchio from "../views/Rocchio.vue";
 import ANN from "../views/ANN.vue";
 import Preprocessing from "../views/Preprocessing.vue";
+import SVM from "../views/SVM.vue";
+import Bagging from "../views/Bagging.vue";
 import Summary from "../views/Summary.vue";
+import Demo from "../views/Demo.vue";
 
 const routes = [
   { path: "/", component: Overview, meta: { title: "Overview" } },
@@ -27,12 +30,15 @@ const routes = [
     meta: { title: "Rocchio Classifier" },
   },
   { path: "/ann", component: ANN, meta: { title: "ANN with BOW" } },
+  { path: "/svm", component: SVM, meta: { title: "SVM" } },
+  { path: "/bagging", component: Bagging, meta: { title: "Bagging" } },
   {
     path: "/preprocessing",
     component: Preprocessing,
     meta: { title: "Data Preprocessing" },
   },
   { path: "/summary", component: Summary, meta: { title: "Summary" } },
+  { path: "/demo", component: Demo, meta: { title: "Demo" } },
 ];
 
 const router = createRouter({

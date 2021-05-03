@@ -48,7 +48,7 @@
             </tr>
             <tr>
               <td>7</td>
-              <td>Baggin with KNN</td>
+              <td>Bagging with KNN</td>
               <td>58%</td>
             </tr>
             <tr>
@@ -94,6 +94,12 @@
           </tbody>
         </table>
         <br />
+        <p class="text-2xl font-bold mt-6 mb-3">Tools and Libraries Used</p>
+        <div class="my-4">
+          <ul class="list-disc ml-12">
+            <li class="mt-1" v-for="(v, i) in tools" :key="i">{{ v }}</li>
+          </ul>
+        </div>
         <p class="text-2xl font-bold mt-6 mb-3">Team Members</p>
         <div class="my-4">
           <ul class="list-disc ml-12">
@@ -119,7 +125,26 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      tools: [
+        "Numpy",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-Learn",
+        "Polyglot",
+        "Beautiful Soup",
+        "Markdown",
+        "NLTK",
+        "Pickle",
+        "XGBoost",
+        "PyTorch",
+        "Keras",
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
