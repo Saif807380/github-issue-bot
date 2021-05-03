@@ -10,6 +10,7 @@ import Papers from "../views/Papers.vue";
 import Rocchio from "../views/Rocchio.vue";
 import ANN from "../views/ANN.vue";
 import Preprocessing from "../views/Preprocessing.vue";
+import Summary from "../views/Summary.vue";
 
 const routes = [
   { path: "/", component: Overview, meta: { title: "Overview" } },
@@ -31,6 +32,7 @@ const routes = [
     component: Preprocessing,
     meta: { title: "Data Preprocessing" },
   },
+  { path: "/summary", component: Summary, meta: { title: "Summary" } },
 ];
 
 const router = createRouter({

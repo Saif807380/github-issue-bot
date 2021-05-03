@@ -68,7 +68,7 @@ export default {
         lstm: "RNN with LSTM",
         rcnn: "RCNN",
         demo: "Implementation",
-        about: "About Us",
+        summary: "Summary",
       },
     };
   },
