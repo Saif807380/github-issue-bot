@@ -9,6 +9,7 @@ import RCNN from "../views/RCNN.vue";
 import Papers from "../views/Papers.vue";
 import Rocchio from "../views/Rocchio.vue";
 import ANN from "../views/ANN.vue";
+import Preprocessing from "../views/Preprocessing.vue";
 
 const routes = [
   { path: "/", component: Overview, meta: { title: "Overview" } },
@@ -25,6 +26,11 @@ const routes = [
     meta: { title: "Rocchio Classifier" },
   },
   { path: "/ann", component: ANN, meta: { title: "ANN with BOW" } },
+  {
+    path: "/preprocessing",
+    component: Preprocessing,
+    meta: { title: "Data Preprocessing" },
+  },
 ];
 
 const router = createRouter({

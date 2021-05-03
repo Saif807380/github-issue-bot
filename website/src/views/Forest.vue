@@ -37,7 +37,7 @@
         </div>
         <div class="text-center mt-6">
           <small class="italic"
-            >Fig.3 - Random Forest Classifier with Bag of Words
+            >Fig.2 - Random Forest Classifier with Bag of Words
             Vectorization.</small
           >
         </div>
@@ -49,7 +49,7 @@
         </div>
         <div class="text-center mt-6">
           <small class="italic"
-            >Fig.4 - Random Forest Classifier with TF-IDF Vectorization.</small
+            >Fig.3 - Random Forest Classifier with TF-IDF Vectorization.</small
           >
         </div>
         <p class="text-2xl font-bold mt-6 mb-3">Results and Improvements</p>
