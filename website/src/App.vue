@@ -1,13 +1,23 @@
 <template>
   <!-- #43379d -->
+  <!-- 252f3f -->
   <div class="grid grid-cols-5 grid-rows-1 h-screen">
-    <div class="col-span-1 shadow-2xl" style="background-color: #252f3f">
+    <div
+      class="col-span-1 shadow-2xl divide-y divide-white"
+      style="background-color: #24292e"
+    >
       <div class="mt-4 pl-4">
-        <p class="text-2xl text-left font-bold text-white">GitHub Issue Bot</p>
+        <p class="text-xl font-bold text-white">
+          <img
+            src="@/assets/images/github-logo.png"
+            alt=""
+            class="h-5 w-5 mr-2 mb-1 inline"
+          />GitHub Issue Bot
+        </p>
       </div>
-      <div class="mt-3 mx-3">
+      <div class="mt-1 pt-2 mx-3">
         <div
-          class="rounded mt-1 py-1 text-gray-300 hover:bg-white hover:text-gray-700"
+          class="rounded mt-1 py-1 text-white hover:bg-white hover:text-gray-700"
           :class="{
             'bg-white': isActive(k),
             'text-gray-700': isActive(k),
@@ -17,7 +27,9 @@
           :key="k"
           @click="view(k)"
         >
-          <p class="text-normal font-semibold text-left ml-2">{{ v }}</p>
+          <p class="text-normal text-left ml-2">
+            <b-icon-dot class="inline"></b-icon-dot>{{ v }}
+          </p>
         </div>
       </div>
     </div>
@@ -35,6 +47,7 @@ export default {
         "": "Overview",
         dataset: "Dataset",
         preprocessing: "Data Preprocessing",
+        papers: "Research Papers",
         roccio: "Rocchio Classifier",
         knn: "KNN",
         tree: "Decision Tree Classifier",
@@ -47,7 +60,6 @@ export default {
         lstm: "RNN with LSTM",
         rcnn: "RCNN",
         demo: "Implementation",
-        papers: "Research Papers",
         about: "About Us",
       },
     };

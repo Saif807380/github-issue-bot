@@ -19,10 +19,11 @@
           bot would automatically label issues when they are created, making it
           easier to handle issue creation and prioritization.
         </p>
+        <br />
         <div class="text-center">
           <img
-            class="object-contain mx-auto"
-            src="@/assets/images/snippets/bash.png"
+            class="object-contain mx-auto w-2/3"
+            src="@/assets/images/home.png"
           />
         </div>
         <br />
@@ -46,10 +47,23 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
+      <hr class="mt-4" />
+      <div class="flex flex-row-reverse mt-2">
+        <router-link
+          class="text-lg font-semibold underline"
+          style="color: #24292e"
+          to="/dataset"
+          >Dataset<b-icon-arrow-right class="ml-1 inline"></b-icon-arrow-right
+        ></router-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    window.scrollTo(0, 0);
+  },
+};
 </script>
