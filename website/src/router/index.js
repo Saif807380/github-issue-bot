@@ -8,6 +8,7 @@ import KNN from "../views/KNN.vue";
 import RCNN from "../views/RCNN.vue";
 import Papers from "../views/Papers.vue";
 import Rocchio from "../views/Rocchio.vue";
+import ANN from "../views/ANN.vue";
 
 const routes = [
   { path: "/", component: Overview, meta: { title: "Overview" } },
@@ -23,6 +24,7 @@ const routes = [
     component: Rocchio,
     meta: { title: "Rocchio Classifier" },
   },
+  { path: "/ann", component: ANN, meta: { title: "ANN with BOW" } },
 ];
 
 const router = createRouter({
