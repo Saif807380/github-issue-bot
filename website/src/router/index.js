@@ -5,6 +5,7 @@ import Tree from "../views/Tree.vue";
 import Forest from "../views/Forest.vue";
 import Bayes from "../views/Bayes.vue";
 import KNN from "../views/KNN.vue";
+import RCNN from "../views/RCNN.vue";
 
 const routes = [
   { path: "/", component: Overview, meta: { title: "Overview" } },
@@ -13,6 +14,7 @@ const routes = [
   { path: "/forest", component: Forest, meta: { title: "Random Forest" } },
   { path: "/bayes", component: Bayes, meta: { title: "Naive Bayes" } },
   { path: "/knn", component: KNN, meta: { title: "KNN" } },
+  { path: "/rcnn", component: RCNN, meta: { title: "RCNN" } },
 ];
 
 const router = createRouter({
