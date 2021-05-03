@@ -88,15 +88,14 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Project
-          Overview</router-link
-        >
+          to="/knn"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>KNN
+        </router-link>
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"
           style="color: #24292e"
-          to="/preprocessing"
-          >Data Preprocessing<b-icon-arrow-right
+          to="/forest"
+          >Random Forest Classifier<b-icon-arrow-right
             class="ml-1 inline"
           ></b-icon-arrow-right
         ></router-link>

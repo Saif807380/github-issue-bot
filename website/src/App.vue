@@ -41,6 +41,14 @@
 
 <script type="text/javascript">
 export default {
+  watch: {
+    $route: {
+      handler(to, from) {
+        console.log(from);
+        document.title = to.meta.title || "GH Issue Bot";
+      },
+    },
+  },
   data() {
     return {
       sections: {
