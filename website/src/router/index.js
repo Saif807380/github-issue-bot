@@ -7,6 +7,7 @@ import Bayes from "../views/Bayes.vue";
 import KNN from "../views/KNN.vue";
 import RCNN from "../views/RCNN.vue";
 import Papers from "../views/Papers.vue";
+import Rocchio from "../views/Rocchio.vue";
 
 const routes = [
   { path: "/", component: Overview, meta: { title: "Overview" } },
@@ -17,6 +18,11 @@ const routes = [
   { path: "/knn", component: KNN, meta: { title: "KNN" } },
   { path: "/rcnn", component: RCNN, meta: { title: "RCNN" } },
   { path: "/papers", component: Papers, meta: { title: "Research Papers" } },
+  {
+    path: "/rocchio",
+    component: Rocchio,
+    meta: { title: "Rocchio Classifier" },
+  },
 ];
 
 const router = createRouter({

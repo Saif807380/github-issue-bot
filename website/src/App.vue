@@ -90,4 +90,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+img {
+  @apply shadow-xl;
+}
 </style>
