@@ -32,6 +32,7 @@ export default {
   data() {
     return {
       sections: {
+        "": "Overview",
         dataset: "Dataset",
         preprocessing: "Data Preprocessing",
         roccio: "Rocchio Classifier",
