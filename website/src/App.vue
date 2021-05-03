@@ -56,7 +56,7 @@ export default {
         dataset: "Dataset",
         preprocessing: "Data Preprocessing",
         papers: "Research Papers",
-        roccio: "Rocchio Classifier",
+        rocchio: "Rocchio Classifier",
         knn: "KNN",
         tree: "Decision Tree Classifier",
         forest: "Random Forest Classifier",
