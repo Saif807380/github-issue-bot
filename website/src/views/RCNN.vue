@@ -158,10 +158,8 @@
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"
           style="color: #24292e"
-          to="/demo"
-          >Implementation<b-icon-arrow-right
-            class="ml-1 inline"
-          ></b-icon-arrow-right
+          to="/summary"
+          >Summary<b-icon-arrow-right class="ml-1 inline"></b-icon-arrow-right
         ></router-link>
       </div>
     </div>

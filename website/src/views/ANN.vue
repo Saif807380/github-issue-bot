@@ -104,9 +104,8 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/bayes"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Naive
-          Bayes Classifier
+          to="/svm"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>SVM
         </router-link>
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"

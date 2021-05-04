@@ -78,18 +78,18 @@
             </tr>
             <tr>
               <td>13</td>
-              <td>ANN with BoW</td>
-              <td>71.32%</td>
-            </tr>
-            <tr>
-              <td>14</td>
               <td>RNN with LSTM</td>
               <td>67.2%</td>
             </tr>
             <tr>
-              <td>15</td>
+              <td>14</td>
               <td>RCNN</td>
               <td>57%</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>ANN with BoW</td>
+              <td>71.32%</td>
             </tr>
           </tbody>
         </table>
@@ -115,9 +115,8 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/demo"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left
-          >Implementation
+          to="/RCNN"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>RCNN
         </router-link>
       </div>
     </div>

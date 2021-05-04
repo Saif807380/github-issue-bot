@@ -14,6 +14,8 @@ import SVM from "../views/SVM.vue";
 import Bagging from "../views/Bagging.vue";
 import Summary from "../views/Summary.vue";
 import Demo from "../views/Demo.vue";
+import Boosting from "../views/Boosting.vue";
+import LSTM from "../views/LSTM.vue";
 
 const routes = [
   { path: "/", component: Overview, meta: { title: "Overview" } },
@@ -39,6 +41,8 @@ const routes = [
   },
   { path: "/summary", component: Summary, meta: { title: "Summary" } },
   { path: "/demo", component: Demo, meta: { title: "Demo" } },
+  { path: "/boosting", component: Boosting, meta: { title: "Boosting" } },
+  { path: "/lstm", component: LSTM, meta: { title: "LSTM" } },
 ];
 
 const router = createRouter({

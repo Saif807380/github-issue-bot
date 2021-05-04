@@ -73,9 +73,9 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/forest"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Random
-          Forest Classifier
+          to="/bayes"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Naive
+          Bayes Classifier
         </router-link>
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"

@@ -68,15 +68,15 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/rocchio"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Rocchio
-          Classifier
+          to="/forest"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Random
+          Forest Classifier
         </router-link>
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"
           style="color: #24292e"
-          to="/tree"
-          >Decision Tree Classifier<b-icon-arrow-right
+          to="/bayes"
+          >Naive Bayes Classifier<b-icon-arrow-right
             class="ml-1 inline"
           ></b-icon-arrow-right
         ></router-link>

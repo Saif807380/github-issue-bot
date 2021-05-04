@@ -8,7 +8,7 @@
         <iframe
           class="w-full"
           height="500"
-          src="https://www.youtube.com/embed/YXnZgvsu_Bk"
+          src="https://www.youtube.com/embed/fmD9Um_OHrY"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,14 +20,14 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/rcnn"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>RCNN
+          to="/"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Overview
         </router-link>
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"
           style="color: #24292e"
-          to="/summary"
-          >Summary<b-icon-arrow-right class="ml-1 inline"></b-icon-arrow-right
+          to="/dataset"
+          >Dataset<b-icon-arrow-right class="ml-1 inline"></b-icon-arrow-right
         ></router-link>
       </div>
     </div>

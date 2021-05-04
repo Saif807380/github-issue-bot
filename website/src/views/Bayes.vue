@@ -83,16 +83,14 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/svm"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>SVM
+          to="/knn"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>KNN
         </router-link>
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"
           style="color: #24292e"
-          to="/ann"
-          >ANN with BOW<b-icon-arrow-right
-            class="ml-1 inline"
-          ></b-icon-arrow-right
+          to="/bagging"
+          >Bagging<b-icon-arrow-right class="ml-1 inline"></b-icon-arrow-right
         ></router-link>
       </div>
     </div>

@@ -26,34 +26,16 @@
             src="@/assets/images/home.png"
           />
         </div>
-        <br />
-        <p class="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <br />
-        <p class="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
       </div>
       <hr class="mt-4" />
       <div class="flex flex-row-reverse mt-2">
         <router-link
           class="text-lg font-semibold underline"
           style="color: #24292e"
-          to="/dataset"
-          >Dataset<b-icon-arrow-right class="ml-1 inline"></b-icon-arrow-right
+          to="/demo"
+          >Implementation<b-icon-arrow-right
+            class="ml-1 inline"
+          ></b-icon-arrow-right
         ></router-link>
       </div>
     </div>

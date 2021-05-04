@@ -85,9 +85,9 @@
         <router-link
           class="text-lg font-semibold underline flex-1"
           style="color: #24292e"
-          to="/"
-          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left>Project
-          Overview</router-link
+          to="/demo"
+          ><b-icon-arrow-left class="mr-1 inline"></b-icon-arrow-left
+          >Implementation</router-link
         >
         <router-link
           class="text-lg font-semibold underline flex-1 text-right"
