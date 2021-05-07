@@ -15,8 +15,8 @@
 
 
 # Workflow
-<img src="https://github.com/pal-16/Issue-Label-Bot-ML-Project/blob/master/readme-assets/overview.JPG" height = 300/> 
-<img src="https://github.com/pal-16/Issue-Label-Bot-ML-Project/blob/master/readme-assets/bot.png" height = 300>
+<img src="https://github.com/Saif807380/github-issue-bot/blob/main/readme-assets/overview.JPG" height = 300/> 
+<img src="https://github.com/Saif807380/github-issue-bot/blob/main/readme-assets/bot.png" height = 300>
 
 # Team Members
 - Shreya Dhanajay 
